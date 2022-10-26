@@ -16,6 +16,9 @@ extension ContentView {
         @Published var selectedPlace: Location?
         @Published var isUnlocked = false
         
+        @Published var authenticationError = "Unknown error"
+        @Published var isShowingAuthenticationError = false
+        
         let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedPlaces")
         
         init() {
@@ -64,11 +67,15 @@ extension ContentView {
                             self.isUnlocked = true
                         }
                     } else {
-                        //error
+                        Task{ @MainActor in
+                            self.authenticationError = "Some problem is showing when trying to authenticate."
+                            self.isShowingAuthenticationError = true
+                        }
                     }
                 }
             } else {
-                //error
+                authenticationError = "Sorry, your device does not support biometric authentication."
+                isShowingAuthenticationError = true
             }
         }
     }

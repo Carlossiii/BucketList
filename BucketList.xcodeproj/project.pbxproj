@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		675E0C9E2908D47000AD1ECF /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675E0C9D2908D47000AD1ECF /* EditView-ViewModel.swift */; };
 		676ED3B82908370200100A9C /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676ED3B72908370200100A9C /* ContentView-ViewModel.swift */; };
 		676ED3BA29083D6400100A9C /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676ED3B929083D6400100A9C /* FileManager-DocumentsDirectory.swift */; };
 		679ABB1F2906DA6A00E56CCC /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679ABB1E2906DA6A00E56CCC /* BucketListApp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		675E0C9D2908D47000AD1ECF /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 		676ED3B72908370200100A9C /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 		676ED3B929083D6400100A9C /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		679ABB1B2906DA6A00E56CCC /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,12 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				679ABB1E2906DA6A00E56CCC /* BucketListApp.swift */,
-				679ABB202906DA6A00E56CCC /* ContentView.swift */,
 				676ED3B929083D6400100A9C /* FileManager-DocumentsDirectory.swift */,
 				67F850532907324E008B10CB /* Result.swift */,
-				679ABB2E2906EDE400E56CCC /* EditView.swift */,
-				676ED3B72908370200100A9C /* ContentView-ViewModel.swift */,
 				679ABB2C2906DE4500E56CCC /* Location.swift */,
+				679ABB202906DA6A00E56CCC /* ContentView.swift */,
+				676ED3B72908370200100A9C /* ContentView-ViewModel.swift */,
+				679ABB2E2906EDE400E56CCC /* EditView.swift */,
+				675E0C9D2908D47000AD1ECF /* EditView-ViewModel.swift */,
 				679ABB222906DA6B00E56CCC /* Assets.xcassets */,
 				679ABB242906DA6B00E56CCC /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 				676ED3B82908370200100A9C /* ContentView-ViewModel.swift in Sources */,
 				67F850542907324E008B10CB /* Result.swift in Sources */,
 				679ABB2D2906DE4500E56CCC /* Location.swift in Sources */,
+				675E0C9E2908D47000AD1ECF /* EditView-ViewModel.swift in Sources */,
 				679ABB2F2906EDE400E56CCC /* EditView.swift in Sources */,
 				679ABB1F2906DA6A00E56CCC /* BucketListApp.swift in Sources */,
 			);
